@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.write("AVD")
+st.write("AVD 22")
 
 data = {
     "Task": ["Extract", "Transform", "Load"],
