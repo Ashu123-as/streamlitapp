@@ -1,10 +1,10 @@
-pipeline{
+pipeline {
     agent any
-    stages{
-        stage("checkout code) {
+    stages {
+        stage("checkout code") {
             steps {
-            git url:'https://github.com/Ashu123-as/streamlitapp.git', branch: 'main'
-            }
+                git url:"https://github.com/Ashu123-as/streamlitapp.git", branch:"main"
+            }  
         }
     }
 }
