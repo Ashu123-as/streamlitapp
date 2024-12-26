@@ -1,0 +1,9 @@
+pipeline{
+    agent any
+    stages{
+        stage("checkout code){
+            git url:'https://github.com/Ashu123-as/streamlitapp.git', branch: 'main'
+
+        }
+    }
+}
