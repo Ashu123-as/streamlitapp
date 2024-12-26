@@ -5,7 +5,6 @@ pipeline{
             steps {
             git url:'https://github.com/Ashu123-as/streamlitapp.git', branch: 'main'
             }
-
         }
     }
 }
